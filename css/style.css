@@ -1,8 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.prueba{
-    height: 1500px;
-}
 body{
     font-family: 'Poppins';
     background-color: #f7feef;
@@ -127,6 +124,16 @@ a.nav-link{
     border: none;
     margin-top: 0%;
 }
+.dropdown-menu{
+    background-color: #638b31;
+}
+.dropdown-item{
+    font-weight: 500;
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #a5df5e;
+}
 .logo-peque{
     margin: 0px 0px 0px 60px;
     padding: 0;
@@ -140,6 +147,12 @@ a.nav-link{
     filter: drop-shadow(0 5px 5px rgba(75, 129, 4, 0.781));
 }
 .nav-verde{
+    opacity: .6;
+    height: 100px;
+    background-color: #76994c;
+}
+.nav-verde:hover{
+    opacity: 1;
     height: 100px;
     background-color: #76994c;
 }
@@ -234,6 +247,17 @@ div.card-body p{
     display: block;
     align-items: center;
 }
+.contenido-serv-der{
+    margin-top: 80px;
+    width: 300px;
+    height: 180px;
+    display: block;
+    align-items: center;
+}
+.contenido-serv-der h3{
+    font-family: 'Taviraj';
+    font-weight: 700;
+}
 .contenido-serv h3{
     font-family: 'Taviraj';
     font-weight: 700;
@@ -254,4 +278,123 @@ div.card-body p{
 }
 .murov img:hover{
     scale: 2;
+}
+@media only screen and (max-width: 900px){
+    .murov{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        height: 50vh;
+        width: 70vh;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .muroT{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        height: 45vh;
+        width: 65vh;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+}
+.muroT{
+    margin-left: 60px;
+    margin-bottom: 100px;
+    height: 310px;
+    width: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.muroT img{
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+}
+.muroT img:hover{
+    scale: 2;
+}
+#BotonServ{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin-top: 5px;
+    margin-right: 3px;
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #5b96138f;
+}
+#BotonServ p{
+    font-weight: 500;
+    padding: 0%;
+}
+#BotonServ img{
+    height: 20px;
+    width: 20px;
+}
+/*//////////////////////////////////////////////////////////////////////FOOTER*/
+/*
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+*/
+.color1{
+    height: 55px;
+    background-color: #9fc96c;
+}
+.color2{
+    height: 34px;
+    background-color: #76994c;
+}
+.color3{
+    height: 21px;
+    background-color: #39521b;
+}
+#foot{
+    padding-top: 10px;
+}
+.redesSociales{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+.redesSociales li a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.redesSociales li img{
+    margin-right: 5px;
+}
+.navegacionF{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+.navegacionF li a{
+    color: rgb(27, 27, 27);
+    font-weight: 600;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navegacionF li {
+    color: rgb(27, 27, 27);
+    font-weight: 600;
+    margin-right: 15px;
+}
+.navegacionF li a:hover{
+    border-bottom: 3px solid rgb(74, 204, 74);
+    font-weight: 900;
+}
+.redesSociales li a:hover{
+    border-bottom: 3px solid rgb(74, 204, 74);
+    font-weight: 900;
 }
