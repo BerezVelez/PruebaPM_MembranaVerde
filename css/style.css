@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    background-color: #f7feef;
+}
+/*NAV-BAR*/
+header{
+    background-image: url(../src/Imagenes/HeaderPlants.jpg);
+    height: 350px;
+}
+header h2{
+    font-family: 'Taviraj';
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+}
+.Frase{
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    width: 700px;
+    height: 50px;
+    text-align: end;
+}
+nav{
+    margin-top: 15px;
+    height: 50px;
+    font-weight: 500;
+    font-size: small;
+}
+.navbar-brand{
+    margin-top: 90px;
+    margin-left: 60px;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-nav{
+    margin-right: 60px;
+}
+.nav-link{
+    color: white!important;
+    padding-bottom: 0px;
+}
+.nav-link:hover{
+    border-bottom: 3px solid rgb(74, 204, 74);
+    font-weight: 900;
+}
+.nav-link:focus{
+    color: whitesmoke!important;
+    font-weight: 800;
+}
+@media only screen and (max-width: 990px){
+    .Frase{
+        display: none;
+    }
+    a.navbar-brand{
+        margin-top: 0px;
+    }
+    .navbar-brand img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    nav{
+        margin-top: 0px;
+    }
+    .navbar-brand{
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    div.navbar-nav{
+        margin-right: 0px;
+        width: 225px;
+        float: inline-end;
+        display: flex;
+        justify-content: end;
+        text-align: end;
+        background-color: #A8CA7E;
+        border-radius: 20px 0px 20px 0px;
+    }
+    .nav-link{
+        padding: 10px 0px 10px 10px;
+        margin: 0px 20px 10px 25px;
+    }
+    .nav-link:focus{
+        padding: 10px 0px 0px 10px;
+        margin-right: 20px;
+    }
+}
+.navbar-toggler{
+    font-weight: 200;
+    font-size: xx-large;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    width: 45px;
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+}
+/*///////////////////////////////////////////////////////////////////////NAV-BAR*/
+.fondo1{
+    background-color: rgb(184, 184, 184);
+    height: 1500pxn;
+}
