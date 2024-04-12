@@ -9,7 +9,7 @@ El proyecto E-commerce se llama "Membrana Verde" haciendo alución a los espacio
 
 ## "Membrana Verde"
 
-![Logotipo color Verde de la marca](./src/Logotipo/Logo_Verde.png)
+![Logotipo color Verde de la marca](./src/Logotipo/LogoVerde.png)
 
 ### Links: Documentos de planeación y desarrollo
 + La planeación del proyecto se desarrollo en una tabla de [Sheets de Google: Prueba técnica PM - Dev front end - Berenice J Vélez](https://docs.google.com/spreadsheets/d/1pi5o6heIiNOvVaYZn1A-ZYZ2YkuuBH50LRGLNVF8uBk/edit?usp=sharing)
