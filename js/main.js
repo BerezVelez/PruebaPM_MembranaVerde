@@ -79,7 +79,24 @@ var plantas = [
         "ambiente": "Luz indirecta",
         "img": "https://res.cloudinary.com/fronda/image/upload/f_auto,q_auto,c_lpad,b_auto,w_615,h_615/productos/fol/11250/11250930_1.jpg?26-03-2024",
         "price": "$270.00"
+    },
+    {
+        "id": 9,
+        "name": "Philodendron mayoi",
+        "diametro": "15 cm",
+        "ambiente": "Luz indirecta",
+        "img": "https://res.cloudinary.com/fronda/image/upload/f_auto,q_auto,c_lpad,b_auto,w_615,h_615/productos/fol/11250/11250936_1.jpg?27-03-2024",
+        "price": "$425.00"
+    },
+    {
+        "id": 10,
+        "name": "White Princess",
+        "diametro": "12 cm",
+        "ambiente": "Luz indirecta",
+        "img": "https://res.cloudinary.com/fronda/image/upload/f_auto,q_auto,c_lpad,b_auto,w_615,h_615/productos/fol/11250/11250933_1.jpg?26-03-2024",
+        "price": "$270.00"
     }
+    
 ];
 localStorage.setItem("plantas", JSON.stringify(plantas));
 

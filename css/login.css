@@ -1,0 +1,74 @@
+
+#container{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.PlantaInicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 500px;
+}
+.PlantaInicio img{
+    opacity: .9;
+    width: 120%;
+    height: 120%;
+    z-index: -1;
+}
+.col-md-6.col-lg-6 h1{
+    margin: 60px 0px 40px 60px;
+    font-weight: 900;
+}
+.btnIniciar{
+    margin-top: 0;
+    margin-left: 160px;
+    background-color: #5b96137e;
+    color: #385a0e;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    font-weight: 800;   
+}
+.btnIniciar:hover{
+    background-color: #416e09c7;
+    color: #d8f3b6ad;
+    scale: 1.08;
+}
+.btnResgistro{
+    margin-top: 0;
+    margin-left: 160px;
+    background-color: #5b96137e;
+    color: #385a0e;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    font-weight: 800;   
+}
+.btnResgistro:hover{
+    background-color: #416e09c7;
+    color: #d8f3b6ad;
+    scale: 1.08;
+}
+#EmailInicio, #PasswordInicio{
+    margin-bottom: 60px;
+    width: 450px;
+    border: 2px solid rgb(76, 136, 86);
+    background-color: rgba(228, 255, 203, 0.705);
+}
+#EmailRegistro, #PasswordRegistro{
+    margin-bottom: 20px;
+    width: 450px;
+    border: 2px solid rgb(76, 136, 86);
+    background-color: rgba(228, 255, 203, 0.705);
+}
+.contenedor-Log{
+    transition: 0.5s;
+    display: none;
+}
+.contenedor-Reg{
+    transition: 0.5s;
+    display: none;
+}
