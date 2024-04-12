@@ -1,0 +1,29 @@
+div.col-mg-5.col-lg-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin-bottom: 50px;
+}
+div.col-md-7.col-lg-7{
+    padding: 160px 15px 30px 30px;
+    height: 800px;
+}
+div.col-md-8.col-lg-8 img{
+    width: 80px;
+}
+div.col-md-8.col-lg-8 p{
+    font-size:larger;
+}
+.HomTrabajando{
+    border: 4px solid rgba(5, 71, 10, 0.719);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 700px;
+    height: 550px;
+    background-size: cover;
+}
+.HomTrabajando img{
+    width: 100%;
+    height: 100%;
+}
