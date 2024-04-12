@@ -1,0 +1,29 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "API que contiene información de las plantas para el E-commece, tales como imagen, nombre, precio, características. Todo en formato .json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerezVelez/PruebaPM_MembranaVerde.git"
+  },
+  "keywords": [
+    "verde",
+    "plantas",
+    "membrana",
+    "api",
+    "json"
+  ],
+  "author": "BereniceJ.Vélez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BerezVelez/PruebaPM_MembranaVerde/issues"
+  },
+  "homepage": "https://github.com/BerezVelez/PruebaPM_MembranaVerde#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
