@@ -1,0 +1,106 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+#navegador{
+    position: static;
+}
+.col-lg-4{
+    height: 600px;
+    overflow: hidden;
+}
+.col-lg-4.form{
+    margin-bottom: 80px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.Saludo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Saludo h3{
+    font-family: 'Taviraj';
+    font-weight: 800;
+}
+.Saludo h5{
+    font-family: 'Taviraj';
+    font-weight: 400;
+}
+.ImagenNopal img{
+    height: 450px;
+}
+#verificarData{
+    font-style: italic;
+    border-radius: 30px;
+    height: 500px;
+    width: 350px;
+    background-color: #E8E9B2;
+}
+.nombreContacto{
+    padding:5px 0px 0px 10px;
+    margin:10px 25px 0px 25px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+    height: 60px;
+}
+.asuntoContacto{
+    padding:5px 0px 0px 10px;
+    margin: 15px 25px 0px 25px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+    height: 30px;
+}
+.mensajeContacto{
+    padding:5px 10px 0px 10px;
+    margin: 15px 25px 0px 25px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+    height: 300px;
+}
+.alertaContacto{
+    margin-top: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.alertaContacto p{
+    font-family: 'Taviraj';
+    color: rgba(175, 41, 0, 0.815);
+    font-weight: 600;
+    font-style: italic;
+}
+.Preview{
+    margin-left: 30px;
+    font-family: 'Taviraj';
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.274);
+    font-weight: 600;
+    font-style: italic;
+}
+/*-----------------------------------------FORMULARIO*/
+label{
+    margin-left: 5px;
+    font-weight: 700;
+}
+#NombreForm, #EmailForm, #TelefonoForm, #AsuntoForm, #MensajeForm{
+    width: 350px;
+    border: 2px solid rgb(76, 136, 86);
+    background-color: rgba(228, 255, 203, 0.705);
+}
+.btnEnviar{
+    background-color: #5b96137e;
+    color: #385a0e;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-weight: 800;   
+}
+.btnEnviar:hover{
+    background-color: #416e09c7;
+    color: #d8f3b6ad;
+    scale: 1.08;
+}
